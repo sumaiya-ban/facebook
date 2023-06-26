@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;;
+}
+.logo-part img{
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+}
+.header{
+    background:#3b5998;
+    padding: 8px 0;
+    
+    
+}
+.header::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    width: 65%;
+    margin: auto;
+    
+}
+.logo-part{
+    width: 50%;
+    float: left;
+   
+   
+}
+.login-part{
+    width: 50%;
+    float: left;
+    color: white;
+    margin-top: 6px;
+}
+.login-part form{
+    float: right;
+}
+.login-part label,.login-part input{
+    display: block;
+}
+.login-part .email,
+.login-part .password,
+.login-part .login{
+    float: left;
+}
